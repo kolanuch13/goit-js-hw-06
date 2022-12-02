@@ -14,23 +14,7 @@ const images = [
 ];
 
 const imageList = document.querySelector(`.gallery`)
-
-// const louvre = images.map(opt => {
-//   const image = document.createElement("img");
-//   image.src = opt.url;
-//   image.alt = opt.alt; 
-//   return image; 
-// })  
-
-// imageList.append(...louvre)
 const louvre = images.map(image => image);
-console.log(louvre);
-
-const adress = images.map(image => image.url);
-console.log(adress);
-
-const desript = images.map(image => image.alt);
-console.log(desript);
 
 const markup = images
   .map(image => `

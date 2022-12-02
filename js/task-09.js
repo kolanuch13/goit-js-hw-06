@@ -6,9 +6,6 @@ const body = document.querySelector('body')
 const magicWand = document.querySelector('button.change-color')
 const spel = document.querySelector('span.color')
 
-console.log(body);
-console.log(magicWand);
-
 magicWand.addEventListener('click', () => {
   let color = getRandomHexColor();
   body.style.backgroundColor = color;
